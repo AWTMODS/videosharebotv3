@@ -45,7 +45,7 @@ const processPaymentProof = async (ctx, paymentType) => {
       "✅ Payment proof received! Our team will verify it within 24 hours.\n\n" +
       "You'll receive a confirmation message once approved.",
       Markup.inlineKeyboard([
-        Markup.button.url("📞 Contact Support", "https://t.me/stephinjk")
+        Markup.button.url("📞 Contact Support", "https://t.me/malayali_admin")
       ])
     );
 
@@ -145,7 +145,7 @@ const setupPaymentHandlers = (bot) => {
         {
           parse_mode: "Markdown",
           ...Markup.inlineKeyboard([
-            Markup.button.url("📞 Contact Support", "https://t.me/stephinjk")
+            Markup.button.url("📞 Contact Support", "https://t.me/malayali_admin")
           ])
         }
       );
