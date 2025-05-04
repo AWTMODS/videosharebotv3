@@ -67,7 +67,7 @@ const sendPurchaseGroupDetails = async (ctx) => {
 
   await ctx.replyWithPhoto({ source: "./purchase_group.png" }, {
     caption: `👥 *PURCHASE GROUP ACCESS (${config.purchaseGroupPrice})*\n\nGet exclusive content and offers in our private group!`,
-    parse_mode: " ",
+    parse_mode: "Markdown",
     ...Markup.inlineKeyboard(buttons)
   });
 };
